@@ -1,0 +1,21 @@
+/* Level range is 0 to 1 */
+:root{
+    --level: .33;
+    --rounded: 100px;
+}
+.progress_container{
+    padding: 20px;
+    background-color:#333333;
+}
+.progress_bar {
+    border-radius: var(--rounded);
+    padding: 8px;
+    background-color: #515659;
+}
+
+.progress{
+    width: calc(var(--level)*100%);
+    background-color: #F18A3F;
+    height:16px;
+    border-radius: var(--rounded);
+}
